@@ -15,6 +15,6 @@ logging:
       currentLogFilename: /devel/luxoft/faulty.log
       archive: false
 brewery:
-  delayInMillis: 10000
+  delayInMillis: 50
 bakery:
-  delayInMillis: 10000
+  delayInMillis: 15000
