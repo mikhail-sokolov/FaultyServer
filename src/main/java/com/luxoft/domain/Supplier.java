@@ -9,7 +9,7 @@ import java.util.concurrent.*;
  */
 public abstract class Supplier<T> implements Managed {
     private TransferQueue<T> storage;
-    private ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+    private ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(4);
     private ScheduledFuture handle;
     private long delay;
 

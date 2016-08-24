@@ -17,4 +17,4 @@ logging:
 brewery:
   delayInMillis: 50
 bakery:
-  delayInMillis: 15000
+  delayInMillis: 750
